@@ -6,6 +6,13 @@
 class Jour01 {
 public:
     Jour01();
+
+    static void calculer_calibration_partie_01();
+    static void calculer_calibration_partie_02();
+
+private:
+    static int calculer_valeur_calibration_partie_01(const bn::string_view& sv);
+    static int calculer_valeur_calibration_partie_02(const bn::string_view& sv);
 };
 
 #endif // JOUR01_H

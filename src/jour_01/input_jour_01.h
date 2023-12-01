@@ -1,5 +1,5 @@
-#ifndef INPUT_JOUR_01_RD_H
-#define INPUT_JOUR_01_RD_H
+#ifndef INPUT_JOUR_01_H
+#define INPUT_JOUR_01_H
 
 #include "../coeur/butano.h"
 
@@ -1010,4 +1010,4 @@ constexpr const bn::array<bn::string_view, 1000> input = {
 
 }
 
-#endif // INPUT_JOUR_01_RD_H
+#endif // INPUT_JOUR_01_H
